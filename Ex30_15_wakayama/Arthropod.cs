@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Ex30_15_wakayama
 {
-    class Fish : Vertebrate
+    internal class Arthropod:Invertebrates//節足動物
     {
-        public Fish(DateTime bd, string n, float w = 0, float h = 0, float d = 0) : base(bd, n, w, h, d)
+        public Arthropod(DateTime bd, string n, float wei, float w = 0, float h = 0, float d = 0) : base(bd, n, wei, w, h, d)
         {
 
         }
     }
+
 }

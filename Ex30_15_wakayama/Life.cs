@@ -20,7 +20,7 @@ namespace Ex30_15_wakayama
         {
             get { return _name; }
         }
-        public Life(DateTime bd, string n, float w = 0, float h = 0, float d = 0) : base(n, w, h, d)
+        public Life(DateTime bd, string n,float wei ,float w = 0, float h = 0, float d = 0) : base(n,wei,w, h, d)
         {
             this._birthDay = bd;
         }
