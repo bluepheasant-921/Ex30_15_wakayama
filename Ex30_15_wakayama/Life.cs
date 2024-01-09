@@ -59,8 +59,8 @@ namespace Ex30_15_wakayama
         public void Introduction(Life l)
         {
             Console.WriteLine(l._name);
-            Console.WriteLine(l.GetAge());
-            Console.WriteLine(l.CheckBirthday());
+            Console.WriteLine($"{l.GetAge()}歳");
+            Console.WriteLine($"{l.CheckBirthday()}（今日が誕生日か）");
         }
     }
 }
