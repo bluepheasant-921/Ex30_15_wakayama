@@ -19,8 +19,7 @@ namespace Ex30_15_wakayama
         {
             get { return _id; }
         }
-        public Student(string org,int id, DateTime bd, string n, float wei, float w = 0, float h = 0, float d = 0)
-            : base(bd, n,wei ,w, h, d)
+        public Student(string org,int id,DateTime bd, int lifespan, string n, float wei, float w = 0, float h = 0, float d = 0) : base(bd, lifespan, n, wei, w, h, d)
         {
             this._organization=org; 
             this._id=id;

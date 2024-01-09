@@ -8,7 +8,7 @@ namespace Ex30_15_wakayama
 {
     internal class Insect:Arthropod//昆虫
     {
-        public Insect(DateTime bd, string n,float wei,float w = 0, float h = 0, float d = 0) : base(bd,n, wei, w, h, d)
+        public Insect(DateTime bd, int lifespan, string n, float wei, float w = 0, float h = 0, float d = 0) : base(bd, lifespan, n, wei, w, h, d)
         {
 
         }

@@ -8,7 +8,7 @@ namespace Ex30_15_wakayama
 {
     internal class Arthropod:Invertebrates//節足動物
     {
-        public Arthropod(DateTime bd, string n, float wei, float w = 0, float h = 0, float d = 0) : base(bd, n, wei, w, h, d)
+        public Arthropod(DateTime bd, int lifespan, string n, float wei, float w = 0, float h = 0, float d = 0) : base(bd, lifespan, n, wei, w, h, d)
         {
 
         }

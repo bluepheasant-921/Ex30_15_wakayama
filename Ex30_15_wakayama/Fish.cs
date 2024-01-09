@@ -8,7 +8,7 @@ namespace Ex30_15_wakayama
 {
     class Fish : Vertebrate
     {
-        public Fish(DateTime bd, string n, float w = 0, float h = 0, float d = 0) : base(bd, n, w, h, d)
+        public Fish(DateTime bd, int lifespan, string n, float wei, float w = 0, float h = 0, float d = 0) : base(bd, lifespan, n, wei, w, h, d)
         {
 
         }
