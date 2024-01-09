@@ -16,6 +16,7 @@ namespace Ex30_15_wakayama
         public float width;
         public float height;
         public float depth;
+        public float box;
         public Thing(string n = null, float wei=0,float w = 0, float h = 0, float d = 0)
         {
             name = n;
@@ -23,6 +24,7 @@ namespace Ex30_15_wakayama
             width = w;
             height = h;
             depth = d;
+            box = w+h+d;
         }
     }
 }
